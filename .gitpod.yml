@@ -11,5 +11,5 @@ tasks:
 
 ports:
     - port: 8000
-    visibility: private
-    onOpen: open-preview
+      visibility: private
+      onOpen: open-preview
