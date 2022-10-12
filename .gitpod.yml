@@ -10,6 +10,6 @@ tasks:
       python manage.py runserver
 
 ports:
-    port: 8000
+    - port: 8000
     visibility: private
     onOpen: open-preview
