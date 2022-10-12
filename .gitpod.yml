@@ -1,11 +1,11 @@
 tasks:
-  - init:
+  - init: |
       python -m venv todoapp-venv
       source todoapp-venv/bin/activate
       pip install --upgrade pip wheel setuptools
       pip install -r requirement.txt
       python manage.py migrate
-  - command:
+  - command:  |
       source todoapp-venv/bin/activate
       python manage.py runserver 
 
